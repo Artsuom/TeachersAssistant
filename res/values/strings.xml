@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Teacher\'s Assistant</string>
+    <string name="action_settings">Settings</string>
+       
+    <string name="open_class_caption">Open Presentation</string>
+    <string name="create_class_caption">Create Presentation</string>
+    <string name="edit_class_caption">Edit Presentation</string>
+    <string name="add_image_caption">Add Image</string>
+    <string name="add_text_caption">Add Text</string>
+    <string name="delete_caption">Delete</string>
+    <string name="delete_presentation_caption">Delete Presentation</string>
+    <string name="view_image_caption">Image</string>
+    <string name="view_class_caption">Open Presentation</string>
+    
+    <string name="edit_class_pagetitle_text">Page Title</string>
+    <string name="edit_class_text">Page Text</string>
+    <string name="edit_class_donebutton_text">Done</string>
+    <string name="edit_class_prevbutton_text">Prev</string>
+	<string name="edit_class_nextbutton_text">Next</string>
+	<string name="create_class_name_text">Presentation title</string>
+	
+	<string name="toast_presentation_deleted">Presentation deleted</string>
+	
+</resources>

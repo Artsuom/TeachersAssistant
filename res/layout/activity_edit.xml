@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"  
+        android:layout_weight="0.90"
+        android:orientation="vertical" >
+        
+        <EditText android:id="@+id/editPageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"       
+            android:hint="@string/edit_class_pagetitle_text"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/addImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/add_image_caption"
+            android:src="@drawable/choose_image"
+            android:layout_gravity="center" />
+        
+        <EditText android:id="@+id/editPageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/edit_class_text"
+            android:layout_gravity="center" />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+        
+        <Button android:id="@+id/doneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_class_donebutton_text"
+            />
+        <Button android:id="@+id/prevPageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_class_prevbutton_text"
+            />
+        <Button android:id="@+id/nextPageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_class_nextbutton_text"
+            />
+        <Button android:id="@+id/deletePageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_caption"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>
